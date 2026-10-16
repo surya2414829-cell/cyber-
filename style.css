@@ -1,0 +1,130 @@
+body {
+  font-family: Arial;
+  background: #e8f5e9;
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
+.box {
+  background: white;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+h1 {
+  color: #0d47a1;
+  margin: 5px;
+}
+input {
+  width: 90%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #0d47a1;
+  font-size: 16px;
+}
+button {
+  background: #d32f2f;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-top: 15px;
+  cursor: pointer;
+  width: 90%;
+}
+button:hover {
+  background: #b71c1c;
+}
+#result {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  display: none;
+}
+.safe {
+  background: #c8e6c9;
+  color: #1b5e20;
+  border: 2px solid green;
+}
+.danger {
+  background: #ffcdd2;
+  color: #b71c1c;
+  border: 2px solid red;
+}
+.warn {
+  background: #fff9c4;
+  color: #f57f17;
+  border: 2px solid orange;
+}
+
+body {
+  font-family: Arial;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
+.box {
+  background: rgba(255,255,255,0.90);
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #002147;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+button {
+  width: 100%;
+  margin-top: 12px;
+  padding: 12px;
+  background: #8B0000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+:root {
+  --cyber-rakshak-background: url('https://images.unsplash.com/photo-1751448555253-f39c06e29d82?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+}
+
+body{
+  font-family: Arial;
+  background-image: var(--cyber-rakshak-background);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 15px;
+  min-height: 100vh;
+}
+
+.box{
+  background: rgba(255,255,255,0.92);
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.stApp {
+  background-image: linear-gradient(rgba(232,245,233,0.78), rgba(232,245,233,0.78)), var(--cyber-rakshak-background);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

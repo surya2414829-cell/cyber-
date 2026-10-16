@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>Cyber Rakshak - Surya</title>
+</head>
+<body>
+<div class="box">
+<h1>🛡️ Cyber Rakshak</h1>
+<p>Gemma AI - Made by Surya</p>
+<input type="text" id="urlInput" placeholder="Link paste chey.. ex: google.com">
+<button onclick="checkURL()">CHECK NOW 🛡️</button>
+<div id="result"></div>
+<p style="font-size:12px;margin-top:20px;">Helpline: 1930 | Vijayawada 2026</p>
+</div>
+
+<script>
+function checkURL(){
+  let link=document.getElementById("urlInput").value.toLowerCase();
+  let res=document.getElementById("result");
+  res.style.display="block";
+  if(link.includes("sbi-kyc")||link.includes("free")||link.includes("lottery")||link.includes("bit.ly")||link.includes("tinyurl")||link.includes("recharge")){
+    res.className="danger";
+    res.innerHTML="🚨 DANGER! 100% FAKE LINK!<br><br>Idi mosam chese link! Click cheyaku! 1930 ki report chey!";
+  }else if(link.includes("google.com")||link.includes("wikipedia.org")||link.includes("gov.in")||link.includes("sbi.co.in")||link.includes("youtube.com")){
+    res.className="safe";
+    res.innerHTML="✅ SAFE! 100% Official Link!<br><br>Ee link safe! 🎉";
+  }else if(link.includes(".com")||link.includes("http")){
+    res.className="warn";
+    res.innerHTML="⚠️ Careful! Anumanaspadam!<br>Direct Google lo search chesi vellu!";
+  }else if(link==""){
+    res.className="warn";
+    res.innerHTML="Link type chey Surya!";
+  }else{
+    res.className="safe";
+    res.innerHTML="✅ Safe Info: OTP evariki ivvaku!";
+  }
+}
+</script>
+</body>
+</html>
+
